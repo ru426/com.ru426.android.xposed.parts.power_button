@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">電源ボタンメニュー</string>
+    <string name="app_desc">電源ボタンメニューに再起動,簡易再起動,リカバリへ再起動のオプションを追加します</string>
+    
+    <string name="powerbutton_settings_key">PowerButtonKey</string>
+    <string name="powerbutton_settings_title">電源ボタン</string>
+    <string name="powerbutton_settings_summary">電源ボタン 設定</string>
+    
+    <string name="is_hook_powerbutton_key">IsHookPowerButtonKey</string>
+    <string name="is_hook_powerbutton_title">電源ボタン 拡張</string>
+    <string name="is_hook_powerbutton_summary">電源ボタンメニューを拡張する</string>
+    
+    <string name="global_action_reboot">再起動</string>
+    <string name="global_action_softreboot">簡易再起動</string>
+    <string name="global_action_recovery">リカバリへ再起動</string>
+    
+    <string name="global_action_reboot_message">再起動しますか?</string>
+    <string name="global_action_softreboot_message">簡易再起動しますか?</string>
+    <string name="global_action_recovery_message">リカバリへ再起動しますか?</string>
+    
+    <string name="add_reboot_to_power_menu_key">AddGlobalActionRebootkey</string>
+    <string name="add_reboot_to_power_menu_title">電源メニューに再起動追加</string>
+    <string name="add_reboot_to_power_menu_summary">電源ボタン長押しメニューに再起動を追加する</string>
+    <string name="add_reboot_dialog_to_power_menu_key">AddGlobalActionRebootDialogkey</string>
+    <string name="add_reboot_dialog_to_power_menu_title">確認ダイアログ</string>
+    <string name="add_reboot_dialog_to_power_menu_summary">再起動時に確認ダイアログを表示する</string>
+    
+    <string name="add_softreboot_to_power_menu_key">AddGlobalActionSoftRebootkey</string>
+    <string name="add_softreboot_to_power_menu_title">電源メニューに簡易再起動追加</string>
+    <string name="add_softreboot_to_power_menu_summary">電源ボタン長押しメニューに簡易再起動を追加する</string>
+    <string name="add_softreboot_dialog_to_power_menu_key">AddGlobalActionSoftRebootDialogkey</string>
+    <string name="add_softreboot_dialog_to_power_menu_title">確認ダイアログ</string>
+    <string name="add_softreboot_dialog_to_power_menu_summary">簡易再起動時に確認ダイアログを表示する</string>
+    
+    <string name="add_recovery_to_power_menu_key">AddGlobalActionRecoverykey</string>
+    <string name="add_recovery_to_power_menu_title">電源メニューにリカバリへ再起動追加</string>
+    <string name="add_recovery_to_power_menu_summary">電源ボタン長押しメニューにリカバリへ再起動を追加する</string>
+    <string name="add_recovery_dialog_to_power_menu_key">AddGlobalActionRecoveryDialogkey</string>
+    <string name="add_recovery_dialog_to_power_menu_title">確認ダイアログ</string>
+    <string name="add_recovery_dialog_to_power_menu_summary">リカバリへ再起動時に確認ダイアログを表示する</string>
+    
+    <string name="show_poweroff_to_power_menu_key">ShowGlobalActionPowerOffkey</string>
+    <string name="show_poweroff_to_power_menu_title">『電源を切る』表示</string>
+    <string name="show_poweroff_to_power_menu_summary">『電源を切る』を電源ボタン長押し時に表示する</string>
+    
+    <string name="show_airplane_to_power_menu_key">ShowGlobalActionAirPlanekey</string>
+    <string name="show_airplane_to_power_menu_title">『機内モード』表示</string>
+    <string name="show_airplane_to_power_menu_summary">『機内モード』を電源ボタン長押し時に表示する</string>
+    
+    <string name="show_screenshot_to_power_menu_key">ShowGlobalActionScreenShotkey</string>
+    <string name="show_screenshot_to_power_menu_title">『スクリーンショット』表示</string>
+    <string name="show_screenshot_to_power_menu_summary">『スクリーンショット』を電源ボタン長押し時に表示する</string>
+</resources>

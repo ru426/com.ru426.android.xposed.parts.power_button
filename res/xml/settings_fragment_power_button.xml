@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.ru426.android.xposed.gxmod_extender"
+    xmlns:xSeekBarPreferece="http://schemas.android.com/apk/res/com.ru426.android.xposed.gxmod_extender" >
+
+    <PreferenceCategory
+        android:summary="@string/is_hook_powerbutton_summary"
+        android:title="@string/is_hook_powerbutton_title" >
+        <CheckBoxPreference
+            android:key="@string/is_hook_powerbutton_key"
+            android:summary="@string/is_hook_powerbutton_summary"
+            android:title="@string/is_hook_powerbutton_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="@string/powerbutton_settings_key"
+        android:summary="@string/powerbutton_settings_summary"
+        android:title="@string/powerbutton_settings_title" >
+        <CheckBoxPreference
+            android:key="@string/add_reboot_to_power_menu_key"
+            android:summary="@string/add_reboot_to_power_menu_summary"
+            android:title="@string/add_reboot_to_power_menu_title" />
+        <CheckBoxPreference
+            android:key="@string/add_reboot_dialog_to_power_menu_key"
+            android:summary="@string/add_reboot_dialog_to_power_menu_summary"
+            android:title="@string/add_reboot_dialog_to_power_menu_title" />
+        <CheckBoxPreference
+            android:key="@string/add_softreboot_to_power_menu_key"
+            android:summary="@string/add_softreboot_to_power_menu_summary"
+            android:title="@string/add_softreboot_to_power_menu_title" />
+        <CheckBoxPreference
+            android:key="@string/add_softreboot_dialog_to_power_menu_key"
+            android:summary="@string/add_softreboot_dialog_to_power_menu_summary"
+            android:title="@string/add_softreboot_dialog_to_power_menu_title" />
+        <CheckBoxPreference
+            android:key="@string/add_recovery_to_power_menu_key"
+            android:summary="@string/add_recovery_to_power_menu_summary"
+            android:title="@string/add_recovery_to_power_menu_title" />
+        <CheckBoxPreference
+            android:key="@string/add_recovery_dialog_to_power_menu_key"
+            android:summary="@string/add_recovery_dialog_to_power_menu_summary"
+            android:title="@string/add_recovery_dialog_to_power_menu_title" />
+        <CheckBoxPreference
+            android:key="@string/show_poweroff_to_power_menu_key"
+            android:summary="@string/show_poweroff_to_power_menu_summary"
+            android:title="@string/show_poweroff_to_power_menu_title" />
+        <CheckBoxPreference
+            android:key="@string/show_airplane_to_power_menu_key"
+            android:summary="@string/show_airplane_to_power_menu_summary"
+            android:title="@string/show_airplane_to_power_menu_title" />
+        <CheckBoxPreference
+            android:key="@string/show_screenshot_to_power_menu_key"
+            android:summary="@string/show_screenshot_to_power_menu_summary"
+            android:title="@string/show_screenshot_to_power_menu_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

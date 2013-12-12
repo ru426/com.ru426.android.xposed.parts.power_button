@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Power Button Menu</string>
+    <string name="app_desc">Add some reboot options to the power button menu</string>
+    
+    <string name="powerbutton_settings_key">PowerButtonKey</string>
+    <string name="powerbutton_settings_title">Power Button</string>
+    <string name="powerbutton_settings_summary">Power Button Menu Settings</string>
+    
+    <string name="is_hook_powerbutton_key">IsHookPowerButtonKey</string>
+    <string name="is_hook_powerbutton_title">Power Button Mod</string>
+    <string name="is_hook_powerbutton_summary">Use PowerButton Mod Menu</string>
+    
+    <string name="global_action_reboot">Reboot</string>
+    <string name="global_action_softreboot">Soft Reboot</string>
+    <string name="global_action_recovery">Recovery</string>
+    
+    <string name="global_action_reboot_message">Do you want to Reboot?</string>
+    <string name="global_action_softreboot_message">Do you want to Soft Reboot?</string>
+    <string name="global_action_recovery_message">Do you want to Reboot to Recovery?</string>
+    
+    <string name="add_reboot_to_power_menu_key">AddGlobalActionRebootkey</string>
+    <string name="add_reboot_to_power_menu_title">Add reboot to power menu</string>
+    <string name="add_reboot_to_power_menu_summary">Add reboot options to the power menu</string>
+    <string name="add_reboot_dialog_to_power_menu_key">AddGlobalActionRebootDialogkey</string>
+    <string name="add_reboot_dialog_to_power_menu_title">Confirmation dialog</string>
+    <string name="add_reboot_dialog_to_power_menu_summary">Display a confirmation dialog when reboot</string>
+    
+    <string name="add_softreboot_to_power_menu_key">AddGlobalActionSoftRebootkey</string>
+    <string name="add_softreboot_to_power_menu_title">Add soft-reboot to power menu</string>
+    <string name="add_softreboot_to_power_menu_summary">Add soft-reboot options to the power menu</string>
+    <string name="add_softreboot_dialog_to_power_menu_key">AddGlobalActionSoftRebootDialogkey</string>
+    <string name="add_softreboot_dialog_to_power_menu_title">Confirmation dialog</string>
+    <string name="add_softreboot_dialog_to_power_menu_summary">Display a confirmation dialog when soft-reboot</string>
+    
+    <string name="add_recovery_to_power_menu_key">AddGlobalActionRecoverykey</string>
+    <string name="add_recovery_to_power_menu_title">Add recovery to power menu</string>
+    <string name="add_recovery_to_power_menu_summary">Add recovery options to the power menu</string>
+    <string name="add_recovery_dialog_to_power_menu_key">AddGlobalActionRecoveryDialogkey</string>
+    <string name="add_recovery_dialog_to_power_menu_title">Confirmation dialog</string>
+    <string name="add_recovery_dialog_to_power_menu_summary">Display a confirmation dialog when recovery</string>
+    
+    <string name="show_poweroff_to_power_menu_key">ShowGlobalActionPowerOffkey</string>
+    <string name="show_poweroff_to_power_menu_title">Show PowerOff on power menu</string>
+    <string name="show_poweroff_to_power_menu_summary">Show PowerOff menu on the power menu</string>
+    
+    <string name="show_airplane_to_power_menu_key">ShowGlobalActionAirPlanekey</string>
+    <string name="show_airplane_to_power_menu_title">Show AirPlane from power menu</string>
+    <string name="show_airplane_to_power_menu_summary">Show AirPlane menu on the power menu</string>
+    
+    <string name="show_screenshot_to_power_menu_key">ShowGlobalActionScreenShotkey</string>
+    <string name="show_screenshot_to_power_menu_title">Show ScreenShot on power menu</string>
+    <string name="show_screenshot_to_power_menu_summary">Show ScreenShot menu on the power menu</string>
+</resources>
